@@ -1,0 +1,29 @@
+{
+  "name": "alegiac/laravel-adsense",
+  "description": "Package for embedding AdSense Ads in Laravel views",
+  "keywords": ["laravel","adsense","admom","ads"],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alessandro Giacomella",
+      "email": "alessandro.giacomella@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alegiac\\Laravel-Adsense\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+  "prefer-stable": true
+}
+
